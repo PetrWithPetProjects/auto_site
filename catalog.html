@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>АвтоМир - Каталог</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>АвтоМир</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог автомобилей</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Каталог автомобилей</h2>
+
+        <div style="margin: 20px 0; padding: 15px; background: #e0e0e0; border-radius: 5px;">
+            <h3>Фильтр по цене</h3>
+            <input type="number" id="priceFilter" placeholder="Максимальная цена" value="10000000">
+            <button onclick="filterProducts()">Применить фильтр</button>
+        </div>
+
+        <div class="product-item">
+            <h3>Седан Business Class</h3>
+            <img src="images/sedan-small.jpg" alt="Седан" width="300" height="200">
+            <p>Цена: 2 500 000 ₽</p>
+            <p><a href="sedan.html">Подробнее</a></p>
+            <button class="add-to-cart" data-id="1">Добавить в корзину</button>
+        </div>
+
+        <div class="product-item">
+            <h3>Внедорожник Explorer</h3>
+            <img src="images/suv-small.jpg" alt="Внедорожник" width="300" height="200">
+            <p>Цена: 3 800 000 ₽</p>
+            <p><a href="suv.html">Подробнее</a></p>
+            <button class="add-to-cart" data-id="2">Добавить в корзину</button>
+        </div>
+
+        <div class="product-item">
+            <h3>Спорткар GT</h3>
+            <img src="images/sportcar-small.jpg" alt="Спорткар" width="300" height="200">
+            <p>Цена: 5 200 000 ₽</p>
+            <p><a href="sportcar.html">Подробнее</a></p>
+            <button class="add-to-cart" data-id="3">Добавить в корзину</button>
+        </div>
+
+        <hr>
+
+        <h3>Корзина</h3>
+        <div id="cart"></div>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2025 АвтоМир. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

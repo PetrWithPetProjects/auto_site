@@ -1,0 +1,53 @@
+﻿body {
+    background-color: rgb(245, 245, 250);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+        nav ul li a {
+            color: rgb(30, 80, 120);
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(220, 230, 240);
+    padding: 8px;
+}
+
+.short-description {
+    color: rgb(70, 100, 120);
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detailed-description {
+    color: rgb(60, 80, 100);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: square;
+    margin: 10px 0 20px 25px;
+    font-size: 15px;
+}
